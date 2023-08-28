@@ -24,6 +24,7 @@ public class AddToCartTest extends BaseClass {
 		String itemName=headPhone.getItemName();
 		headPhone.getCartIcon();
 		Assert.assertTrue((cart.getCartItem().equalsIgnoreCase(itemName)));
+	//09876543wsdfg
 	}
 
 }
