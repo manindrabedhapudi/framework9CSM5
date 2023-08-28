@@ -7,7 +7,8 @@ package genericLibraries;
 	import org.testng.annotations.BeforeMethod;
 
 	import pomPages.MyAddressPage;
-	import pomPages.CartPage;
+import pomPages.AddressFormPage;
+import pomPages.CartPage;
 	import pomPages.HeadphonesPage;
 	import pomPages.HomePage;
 	import pomPages.MyProfilePage;
@@ -32,7 +33,7 @@ package genericLibraries;
 		protected MyAddressPage myAddress;
 		protected HeadphonesPage headPhone;
 		protected CartPage cart;
-		protected MyAddressPage address;
+		protected AddressFormPage address;
 		
 		//@BeforeSuite
 		//@BeforeTest
@@ -61,7 +62,7 @@ package genericLibraries;
 			myAddress=new MyAddressPage(driver);
 			headPhone=new HeadphonesPage(driver);
 			cart=new CartPage(driver);
-			address=new MyAddressPage(driver);
+			address=new AddressFormPage(driver);
 			
 		}
 		@AfterMethod

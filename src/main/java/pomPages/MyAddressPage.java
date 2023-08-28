@@ -28,5 +28,5 @@ public class MyAddressPage {
 	{
 		return succesMessage.getText();
 	}
-	
+
 }

@@ -22,8 +22,8 @@ public class AddToCartTest extends BaseClass {
 		Thread.sleep(3000);
 		Assert.assertEquals(headPhone.getAddToCartText(), "ADDED");
 		String itemName=headPhone.getItemName();
-		headPhone.clickCarticon();
-		Assert.assertTrue((cart.getCartItem().equalsIgnoreCase(itemName));
+		headPhone.getCartIcon();
+		Assert.assertTrue((cart.getCartItem().equalsIgnoreCase(itemName)));
 	}
 
 }

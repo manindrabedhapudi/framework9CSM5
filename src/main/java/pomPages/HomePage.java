@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import genericLibraries.WebDriverUtility;
+
 public class HomePage {
 
 	//Declaration
@@ -37,6 +39,14 @@ public class HomePage {
 	public void clickLogout() {
 		logout.click();
 		
+	}
+	
+	public void mouseHoverToElectronic(WebDriverUtility web) {
+		web.mouseHover(electronicsTab);
+	}
+	
+	public void clickHeadPhonesLink() {
+		HeadPhones.click();
 	}
 
 }

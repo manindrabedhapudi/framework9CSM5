@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import genericLibraries.BaseClass;
-import pomPages.WelcomePage;
 
 public class AddAddressTest extends BaseClass {
 	
